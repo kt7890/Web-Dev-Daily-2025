@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 10 - Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form class="form" onsubmit="return validateForm()">
+        <h2>Register</h2>
+
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+
+        <p id="error"></p>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
