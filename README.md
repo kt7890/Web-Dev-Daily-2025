@@ -1,16 +1,11 @@
-# Day 10 – Form Validation
+# Day 11 – Dark / Light Mode Toggle
 
-Implemented basic client-side form validation using JavaScript.
-
-## Features
-- Required field validation
-- Email format check
-- Password length validation
+Implemented a theme toggle using JavaScript and CSS.
 
 ## Concepts Used
+- classList.toggle()
+- CSS themes
 - DOM manipulation
-- Form events
-- Conditional logic
 
 ## Tech Stack
 - HTML
