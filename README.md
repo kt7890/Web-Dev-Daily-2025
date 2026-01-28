@@ -1,13 +1,14 @@
-# Day 11 – Dark / Light Mode Toggle
+# Web Dev Daily 2025–26 🚀
 
-Implemented a theme toggle using JavaScript and CSS.
+A daily web development practice repository focused on building UI components,
+JavaScript logic, and real-world frontend features using pure HTML, CSS, and JavaScript.
 
-## Concepts Used
-- classList.toggle()
-- CSS themes
-- DOM manipulation
+## 🎯 Goal
+- Build consistency
+- Strengthen frontend fundamentals
+- Practice real-world UI + JS concepts
+- Avoid tutorial dependency
 
-## Tech Stack
-- HTML
-- CSS
-- JavaScript
+## 📁 Structure
+Each folder represents one day of work and focuses on a specific concept or feature.
+
