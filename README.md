@@ -3,8 +3,8 @@
 Implemented basic client-side form validation using JavaScript.
 
 ## Features
-- Required field check
-- Email format validation
+- Required field validation
+- Email format check
 - Password length validation
 
 ## Concepts Used

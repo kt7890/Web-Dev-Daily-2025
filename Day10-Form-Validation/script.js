@@ -2,24 +2,27 @@ function validateForm() {
     const name = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
     const password = document.getElementById("password").value.trim();
-    const error = document.getElementById("error");
+    const msg = document.getElementById("msg");
 
     if (name === "") {
-        error.innerText = "Name is required";
+        msg.innerText = "Name is required";
+        msg.style.color = "red";
         return false;
     }
 
     if (!email.includes("@")) {
-        error.innerText = "Enter a valid email";
+        msg.innerText = "Enter a valid email";
+        msg.style.color = "red";
         return false;
     }
 
     if (password.length < 6) {
-        error.innerText = "Password must be at least 6 characters";
+        msg.innerText = "Password must be at least 6 characters";
+        msg.style.color = "red";
         return false;
     }
 
-    error.innerText = "Form submitted successfully!";
-    error.style.color = "green";
-    return false; // keep false to prevent actual submit
+    msg.innerText = "Form submitted successfully!";
+    msg.style.color = "green";
+    return false; // prevent actual submit
 }
