@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 17 - Tabs UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="tabs-container">
+        <div class="tabs">
+            <button class="tab active" onclick="openTab(event, 'tab1')">HTML</button>
+            <button class="tab" onclick="openTab(event, 'tab2')">CSS</button>
+            <button class="tab" onclick="openTab(event, 'tab3')">JavaScript</button>
+        </div>
+
+        <div class="content">
+            <div id="tab1" class="tab-content active">
+                <p>HTML is the structure of the web.</p>
+            </div>
+            <div id="tab2" class="tab-content">
+                <p>CSS styles the web pages.</p>
+            </div>
+            <div id="tab3" class="tab-content">
+                <p>JavaScript adds interactivity.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
