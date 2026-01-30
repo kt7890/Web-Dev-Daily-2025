@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+
+.pricing {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 220px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background: #111;
+    color: white;
+    cursor: pointer;
+}
+
+/* Highlighted card */
+.popular {
+    transform: scale(1.05);
+    border: 2px solid #111;
+}
