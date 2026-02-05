@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #0b0b0b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+  background: #111;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00ff99;
+}
+
+.hero h1 {
+  color: #00ff99;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.hero p {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  border: none;
+  background: #00ff99;
+  color: #000;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: #00cc77;
+}
