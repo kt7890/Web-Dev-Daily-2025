@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0b0b;
+  color: white;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background: #111;
+}
+
+.logo {
+  color: #00ff99;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0b0b0b, #111);
+  text-align: center;
+  padding: 20px;
+}
+
+.hero p {
+  color: #00ff99;
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #00ff99;
+  color: black;
+  cursor: pointer;
+}
+
+/* Light mode */
+body.light {
+  background: #f5f5f5;
+  color: #111;
+}
+
+body.light nav {
+  background: #ffffff;
+}
+
+body.light .hero {
+  background: linear-gradient(135deg, #f5f5f5, #eaeaea);
+}
+
+body.light .logo,
+body.light .hero p {
+  color: #008f5a;
+}
