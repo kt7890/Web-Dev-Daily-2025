@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project Modal</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <section class="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-grid">
+      <div class="card" data-title="Smart Task Manager" data-desc="A JavaScript task manager with localStorage and clean UI.">
+        Smart Task Manager
+      </div>
+
+      <div class="card" data-title="User Search App" data-desc="An API-based app to search and display users dynamically.">
+        User Search App
+      </div>
+
+      <div class="card" data-title="Portfolio Website" data-desc="A responsive personal portfolio built with HTML, CSS, and JavaScript.">
+        Portfolio Website
+      </div>
+    </div>
+  </section>
+
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span id="closeBtn">&times;</span>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
