@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0b0b;
+  color: white;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+nav.scrolled {
+  background: #111;
+  box-shadow: 0 2px 10px rgba(0, 255, 153, 0.2);
+}
+
+.logo {
+  color: #00ff99;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  height: 100vh;
+  padding: 100px 20px;
+}
