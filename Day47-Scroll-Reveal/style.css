@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0b0b;
+  color: white;
+}
+
+.section {
+  min-height: 100vh;
+  padding: 80px 20px;
+  text-align: center;
+  transition: all 0.6s ease;
+}
+
+/* Hidden state */
+.hidden {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+/* Visible state */
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
